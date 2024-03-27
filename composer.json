@@ -1,0 +1,38 @@
+{
+    "name": "klevu/module-m2-search",
+    "description": "Search that learns, generates sales. Fastest, most advanced cloud-based search, autocomplete, instant search",
+    "type": "metapackage",
+    "version": "4.0.0-BETA-1",
+    "require": {
+        "klevu/module-m2-configuration": "0.1.0",
+        "klevu/module-m2-frontend": "0.1.0",
+        "klevu/module-m2-analytics": "0.1.0",
+        "klevu/module-m2-indexing": "0.1.0",
+        "magento/framework": "^103.0.4"
+    },
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Klevu Oy",
+            "email": "niraj.aswani@klevu.com",
+            "homepage": "https://www.klevu.com/"
+        }
+    ],
+    "conflict": {
+        "klevu/module-search": "*",
+        "klevu/module-adtocart": "*",
+        "klevu/module-categorynavigation": "*",
+        "klevu/module-content": "*",
+        "klevu/module-frontend-js": "*",
+        "klevu/module-logger": "*",
+        "klevu/module-metadata": "*",
+        "klevu/module-msi": "*",
+        "klevu/module-mysqlcompat": "*",
+        "klevu/module-productsearch": "*",
+        "klevu/module-recommendations": "*",
+        "klevu/module-registry": "*",
+        "klevu/module-troubleshoot": "*"
+    }
+}

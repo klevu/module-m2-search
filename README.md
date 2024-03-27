@@ -1,92 +1,118 @@
-# Module M2 Search
+# Klevu Smart Search for Magento 2
 
-Magento V4 Submodule
+Intelligent cloud hosted site search with self-learning search technology to increase search-led conversions.
+<hr />
 
-## Getting started
+### Compatible with:
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+* Adobe Commerce 2.4.4-p7, 2.4.5-p6, 2.4.6-p4.
+* Magento Open Source 2.4.4-p7, 2.4.5-p6, 2.4.6-p4.
+* PHP 8.1, 8.2
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Klevu module version [2.x](https://github.com/klevu/klevu-smart-search-M2/tree/2.x) and [3.x](https://github.com/klevu/klevu-smart-search-M2) are compatible with older versions of Magento and PHP.
+<hr />
 
-## Add your files
+## Change Log
+Visit the [Releases](https://github.com/klevu/module-m2-search/releases) page to see the latest changes and download previous versions.
+<hr />
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Documentation
 
+Until the first General Availability release documentation can be found in [Google Docs](https://drive.google.com/drive/folders/1ukrQoQrHzTUS5c4M9P1lB4kP_OItqXGz?usp=drive_link)
+
+## Installation Steps
+
+We only support installation via Composer.
+Klevu 4.0.0-BETA-1 is released with the stability of Beta.  
+Therefore, to install with composer the stability flag is required.
+```shell
+composer require "klevu/module-m2-search:4.0.0@beta"
 ```
-cd existing_repo
-git remote add origin https://wingnut.klevu.com/gitlab/integrations/module-m2-search.git
-git branch -M master
-git push -uf origin master
-```
+Note: It is not possible to install `2.x/3.x` and `4.x` at the same time. 
+Any attempt to install `4.x` while `2.x/3.x` is installed will fail and display a warning message. 
+i.e. running `composer require klevu/module-m2-search` before running `composer remove "klevu/*"` will fail.
 
-## Integrate with your tools
+**Have questions or need help?** Please E-mail us at: [support@klevu.com](mailto:support@klevu.com)
+<hr />
 
-- [ ] [Set up project integrations](https://wingnut.klevu.com/gitlab/integrations/module-m2-search/-/settings/integrations)
+## Search that Learns, Generates Sales
+Klevu’s Ajax-based search for Magento 2 goes beyond fast response and auto-complete to provide the most advanced search available today.  
+Klevu helps deliver an awesome shopping experience for your customers directly from the search box.  
 
-## Collaborate with your team
+![Klevu Quick Search Results on Magento Luma Homepage](https://www.klevu.com/img/img-slider/magento/magento-2-search.jpg "Klevu Quick Search Results")
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### Klevu Search Features
 
-## Test and Deploy
+* Self-learning search
+* Dynamic filters
+* Search results page
+* Fully customizable
+* Product promotions
+* 100% cloud hosted, CDN backed and secure backups
+* Error tolerance: Automatically take care of spelling mistakes
+* Identifies stop words, inflections and more
+* Populates trending and popular searches
+* Synonym dictionary
+* URL redirect
+* Comprehensive data tracking & analysis
+* Easy integration process
 
-Use the built-in continuous integration in GitLab.
+**Rich autocomplete**  
+Klevu automatically completes the search query by providing rich, insightful and intuitive suggestions. 
+Autocomplete starts from the 1st character!
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+**Grid view layout**  
+Klevu provides a ready-made alternative to the autocomplete layout. 
+It is possible to show instant results with navigation panel in quick search.
 
-***
+**Self-learning search**  
+Klevu continuously learns how shoppers interact by using search on the store. 
+It builds on the learning and optimizes results. 
+No manual work.
 
-# Editing this README
+**Fully customisable**  
+Klevu provides full control and flexibility over the look and feel of search results. 
+Based on the open CSS principle, search results can be customized to any extent desired.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+**Error tolerance**  
+An enhanced keyword search index ensures that shoppers are always connected to the right products.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+**Stopwords**  
+Identifies and manages stop words (i.e. and, to, for…) to get to the heart of the search.
 
-## Name
-Choose a self-explaining name for your project.
+**Inflections**  
+Understands what your shoppers mean even if they use verbs and adjectives in different grammatical forms.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+**Dynamic filters**  
+Automatically creates all relevant filters in the search results. 
+Filters allow shoppers to explore results in great detail.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+**Trending searches**  
+Klevu prompts consumers with words from popular and recent searches, creating interaction with shoppers, and accelerating the buying process.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+**Automated catalog enrichment**  
+Klevu adds contextually relevant synonyms to your catalog in metadata format. 
+This enrichment of your catalog data can result in 3x the depth and coverage of search results.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+**Synonym dictionary**  
+You can train the Klevu search robot for the unique elements related to your store by providing lists of keywords specific to your store. 
+Klevu automatically identifies these words and delivers the best results.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+**URL redirect**  
+URL redirect allows you to direct shoppers to a certain page on specific keywords. 
+For example, direct shoppers to a special promotion page when the keyword “holiday” is searched.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+**Product promotions**  
+Manual boosting of product ranking ensures that the products you want to promote appear at the top of the search results when relevant.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+**Analytics**  
+Klevu analytics help create razor sharp SEO and promotional campaigns. 
+Concrete data helps increase conversion rates. 
+You’ll have complete visibility of the path from search to purchase.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+<hr />
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+### Have questions, need help or have feedback for us?
+E-mail us at: [support@klevu.com](mailto:support@klevu.com).  
+For more information please visit [http://www.klevu.com](https://www.klevu.com).  
+Follow us on X [@klevusearch](https://twitter.com/klevusearch).
