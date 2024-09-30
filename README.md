@@ -1,46 +1,50 @@
 # Klevu Smart Search for Magento 2
 
 Intelligent cloud hosted site search with self-learning search technology to increase search-led conversions.
-<hr />
 
+---
 ### Compatible with:
 
-* Adobe Commerce 2.4.4-p7, 2.4.5-p6, 2.4.6-p4.
-* Magento Open Source 2.4.4-p7, 2.4.5-p6, 2.4.6-p4.
-* PHP 8.1, 8.2
+* Adobe Commerce 2.4.4-p10, 2.4.5-p9, 2.4.6-p7, 2.4.7-p2.
+* Magento Open Source 2.4.4-p10, 2.4.5-p9, 2.4.6-p7, 2.4.7-p2.
+* PHP 8.1, 8.2, 8.3
 
-Klevu module version [2.x](https://github.com/klevu/klevu-smart-search-M2/tree/2.x) and [3.x](https://github.com/klevu/klevu-smart-search-M2) are compatible with older versions of Magento and PHP.
-<hr />
+Klevu module version [v2.x](https://github.com/klevu/klevu-smart-search-M2/tree/2.x) and [v3.x](https://github.com/klevu/klevu-smart-search-M2) are compatible with older versions of Magento and PHP.
 
+---
 ## Change Log
 Visit the [Releases](https://github.com/klevu/module-m2-search/releases) page to see the latest changes and download previous versions.
-<hr />
 
+---
 ## Documentation
+[Klevu Magento Plugin v4.x Documentation](https://docs.klevu.com/klevu-magento-v4/)
 
-Until the first General Availability release documentation can be found in [Google Docs](https://drive.google.com/drive/folders/1ukrQoQrHzTUS5c4M9P1lB4kP_OItqXGz?usp=drive_link)
-
+---
 ## Installation Steps
 
 We only support installation via Composer.
-Klevu 4.0.0-BETA-1 is released with the stability of Beta.  
-Therefore, to install with composer the stability flag is required.
 ```shell
-composer require "klevu/module-m2-search:4.0.0@beta"
+composer require "klevu/module-m2-search"
 ```
-Note: It is not possible to install `2.x/3.x` and `4.x` at the same time. 
-Any attempt to install `4.x` while `2.x/3.x` is installed will fail and display a warning message. 
+### Migration from v2.x or v3.x
+
+Please [read the documentation related to migrating from v2.x/v3.x](https://docs.klevu.com/klevu-magento-v4/read-before-migration)
+before beginning any work on v4.x and contact support check if your account can be migrated.
+
+Note: It is not possible to install `v2.x/v3.x` and `v4.x` at the same time.  
+Any attempt to install `v4.x` while `v2.x/v3.x` is installed will fail and display a warning message.  
 i.e. running `composer require klevu/module-m2-search` before running `composer remove "klevu/*"` will fail.
 
 **Have questions or need help?** Please E-mail us at: [support@klevu.com](mailto:support@klevu.com)
-<hr />
 
+---
 ## Search that Learns, Generates Sales
 Klevu’s Ajax-based search for Magento 2 goes beyond fast response and auto-complete to provide the most advanced search available today.  
 Klevu helps deliver an awesome shopping experience for your customers directly from the search box.  
 
 ![Klevu Quick Search Results on Magento Luma Homepage](https://www.klevu.com/img/img-slider/magento/magento-2-search.jpg "Klevu Quick Search Results")
 
+---
 ### Klevu Search Features
 
 * Self-learning search
@@ -110,7 +114,7 @@ Klevu analytics help create razor sharp SEO and promotional campaigns.
 Concrete data helps increase conversion rates. 
 You’ll have complete visibility of the path from search to purchase.
 
-<hr />
+---
 
 ### Have questions, need help or have feedback for us?
 E-mail us at: [support@klevu.com](mailto:support@klevu.com).  
