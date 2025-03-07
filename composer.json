@@ -2,12 +2,12 @@
     "name": "klevu/module-m2-search",
     "description": "Search that learns, generates sales. Fastest, most advanced cloud-based search, autocomplete, instant search",
     "type": "metapackage",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "require": {
         "klevu/module-m2-configuration": "~1.1.2",
-        "klevu/module-m2-frontend": "~2.0.0",
+        "klevu/module-m2-frontend": "~2.1.0",
         "klevu/module-m2-analytics": "~1.1.0",
-        "klevu/module-m2-indexing": "~3.0.0",
+        "klevu/module-m2-indexing": "~3.1.0",
         "klevu/module-m2-notifications": "~1.0.0",
         "magento/framework": "^103.0.4"
     },
