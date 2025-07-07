@@ -5,8 +5,8 @@ Intelligent cloud hosted site search with self-learning search technology to inc
 ---
 ### Compatible with:
 
-* Adobe Commerce 2.4.4-p13, 2.4.5-p12, 2.4.6-p10, 2.4.7-p5, 2.4.8.
-* Magento Open Source 2.4.4-p13, 2.4.5-p12, 2.4.6-p10, 2.4.7-p5, 2.4.8.
+* Adobe Commerce 2.4.4-p14, 2.4.5-p13, 2.4.6-p11, 2.4.7-p6, 2.4.8-p1.
+* Magento Open Source 2.4.4-p14, 2.4.5-p13, 2.4.6-p11, 2.4.7-p6, 2.4.8-p1.
 * PHP 8.1, 8.2, 8.3, 8.4
 
 Klevu module version [v2.x](https://github.com/klevu/klevu-smart-search-M2/tree/2.x) and [v3.x](https://github.com/klevu/klevu-smart-search-M2) are compatible with older versions of Magento and PHP.
